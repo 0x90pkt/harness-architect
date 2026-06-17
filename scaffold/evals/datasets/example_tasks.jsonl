@@ -1,0 +1,9 @@
+# Starter eval set for the single-agent "packing assistant" example.
+# Real suites should draw from actual usage. ~20 cases is enough to start.
+# `expected` uses '|'-separated phrases for the contains_all grader.
+{"id": "pack-paris-1", "input": "What should I pack for a trip to Paris?", "expected": "12°C|rain", "difficulty": "simple", "split": "dev", "notes": "cool & rainy"}
+{"id": "pack-cairo-1", "input": "I'm heading to Cairo next week, what should I bring?", "expected": "35°C|sun", "difficulty": "simple", "split": "dev", "notes": "hot & sunny"}
+{"id": "pack-oslo-1", "input": "Packing for Oslo. Advice?", "expected": "-3°C|snow", "difficulty": "simple", "split": "dev", "notes": "cold & snowy"}
+{"id": "pack-paris-2", "input": "Trip to Paris this weekend — what clothes do I need?", "expected": "12°C|rain", "difficulty": "simple", "split": "dev"}
+{"id": "pack-cairo-2", "input": "Visiting Cairo soon. Help me pack.", "expected": "35°C|sun", "difficulty": "simple", "split": "test"}
+{"id": "pack-oslo-2", "input": "What to wear in Oslo right now?", "expected": "-3°C|snow", "difficulty": "simple", "split": "test"}

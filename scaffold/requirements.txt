@@ -1,0 +1,8 @@
+# The reference harness core, tests, and examples run on the Python standard
+# library ONLY (Python >= 3.10). There are no required dependencies.
+#
+# The packages below are OPTIONAL — install only the provider(s) you actually use
+# to run against a real model instead of the built-in MockProvider.
+
+# anthropic>=0.40        # for harness.providers.AnthropicProvider (needs ANTHROPIC_API_KEY)
+# openai>=1.40           # for harness.providers.OpenAIProvider (needs OPENAI_API_KEY)
