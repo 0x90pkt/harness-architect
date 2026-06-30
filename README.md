@@ -155,11 +155,24 @@ Full evidence and citations: [`reference/harness-engineering-principles.md`](ref
 
 ## Provenance
 
-The principles are distilled from primary sources, not invented — Anthropic's
-*Building Effective Agents*, *Effective Context Engineering*, *Writing Effective
-Tools*, *Multi-Agent Research System*, and *Effective Harnesses for Long-Running
-Agents*; OpenAI's *Practical Guide to Building Agents*; Cognition's *Don't Build
-Multi-Agents*; LangChain's reconciliation of the two; and the *12-Factor Agents*
-framework. Each is cited inline in the reference doc. Model names, prices, and
+The principles are distilled from primary sources, not invented:
+
+Anthropic:
+- *Building Effective Agents*
+- *Effective Context Engineering*
+- *Writing Effective Tools*
+- *Multi-Agent Research System*
+- *Effective Harnesses for Long-Running Agents*
+
+OpenAI:
+- *Practical Guide to Building Agents*
+
+Cognition: 
+- *Don't Build Multi-Agents*
+
+LangChain: 
+- *12-Factor Agents* framework
+
+Each is cited inline in the reference doc. Model names, prices, and
 benchmarks are flagged as time-sensitive — the agent is instructed to **search
 and verify, never guess** when those matter.
